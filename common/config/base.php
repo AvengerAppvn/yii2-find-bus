@@ -1,9 +1,9 @@
 <?php
 $config = [
-    'name'=>'Yii2 Starter Kit',
+    'name'=>'Timxes',
     'vendorPath'=>dirname(dirname(__DIR__)).'/vendor',
     'extensions' => require(__DIR__ . '/../../vendor/yiisoft/extensions.php'),
-    'sourceLanguage'=>'en-US',
+    'sourceLanguage'=>'vi',
     'language'=>'en-US',
     'bootstrap' => ['log'],
     'components' => [
@@ -154,12 +154,7 @@ $config = [
         'robotEmail' => env('ROBOT_EMAIL'),
         'availableLocales'=>[
             'en-US'=>'English (US)',
-            'ru-RU'=>'Русский (РФ)',
-            'uk-UA'=>'Українська (Україна)',
-            'es' => 'Español',
             'vi' => 'Tiếng Việt',
-            'zh-CN' => '简体中文',
-            'pl-PL' => 'Polski (PL)',
         ],
     ],
 ];

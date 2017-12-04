@@ -146,6 +146,13 @@ $bundle = BackendAsset::register($this);
                         'badgeBgClass' => 'label-success',
                     ],
                     [
+                        'label' => Yii::t('backend', 'Trip'),
+                        'icon' => '<i class="fa fa-bar-chart-o"></i>',
+                        'url' => ['/trip/index'],
+                        'badge' => TimelineEvent::find()->today()->count(),
+                        'badgeBgClass' => 'label-success',
+                    ],
+                    [
                         'label' => Yii::t('backend', 'Content'),
                         'url' => '#',
                         'icon' => '<i class="fa fa-edit"></i>',
